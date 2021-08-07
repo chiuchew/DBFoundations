@@ -1,0 +1,13 @@
+Helena Chew
+August 7, 2021
+IT FDN 130 A
+Assignment 06
+Views, Functions, and Stored Procedures
+Intro
+This paper will walk through when to use a SQL view, Function and Stored Procedure.  
+When To Use SQL View
+When you want to grab data from more than one table, you will want to use the SQL View function. This function is used to simplify and draw data from multiple tables and present the data in a comprehensive table.   
+Differences & Similarities Between a View, Function and Stored Procedure 
+A SQL View, Function and Stored Procedure are all similar and are a named set of SQL statements. A Function can use parameters to change the results of the SQL query as it is executed, while in a View, you can simply use a WHERE clause to define the parameters. A Stored Procedure requires an EXECUTE statement for the SQL to run, while a View does not. A Stored Procedure often use INSERT, DELETE, and UPDATE statements on data. 
+Summary
+Most simply, a view is used when only a SELECT statement is needed. Views are used to store more commonly used JOIN queries and specific columns to build from multiple tables. Functions are also used to narrowly define certain criteria based on the data you want to display. Stored procedures hold the more complex logic, such as INSERT, DELETE, and UPDATE statements to automate large SQL workflows.
